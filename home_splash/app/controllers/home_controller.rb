@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   def index
     right_now = Time.now
-    @current_time = right_now.to_formatted_s(:short)
+    @current_time = right_now.stamp("Jan 1 at 01:00")
 
     # Adjust message by time of day
     @greet_message = case right_now.hour

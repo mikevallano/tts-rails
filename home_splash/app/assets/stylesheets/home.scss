@@ -8,10 +8,17 @@
   width: 100%;
   position: absolute;
   line-height: 1em;
+  color: #202326;
 
-  h1 {
+  #clock {
     font-family: impact;
     font-size: 4em;
+  }
+
+  #greeting {
+    font-family: impact;
+    font-size: 2em;
+    color: #302a2e;
   }
 
 
