@@ -14,8 +14,9 @@
  *= require_self
  */
 
+
 html {
-  font-family: arial;
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
   background-color: #829db4;
 }

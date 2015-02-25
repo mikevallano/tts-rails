@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+
 #main {
   text-align: center;
   top: 30%;
@@ -11,12 +13,12 @@
   color: #202326;
 
   #clock {
-    font-family: impact;
+    font-family: 'Roboto', sans-serif;
     font-size: 4em;
   }
 
   #greeting {
-    font-family: impact;
+    font-family: 'Roboto', sans-serif;
     font-size: 2em;
     color: #302a2e;
   }
