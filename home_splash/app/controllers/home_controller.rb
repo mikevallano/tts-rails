@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
   def index
     right_now = Time.now
-    @current_time = right_now.stamp("Jan 1 at 01:00")
+    @current_time = right_now.stamp("Jan 1st 1:00")
     @current_year = Time.now.year
 
 

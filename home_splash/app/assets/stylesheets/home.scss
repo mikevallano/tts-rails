@@ -4,23 +4,23 @@
 
 
 
-#main {
-  text-align: center;
-  top: 30%;
-  width: 100%;
-  position: absolute;
-  line-height: 1em;
-  color: #202326;
+  #main {
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    position: absolute;
+    line-height: 1em;
 
   #clock {
     font-family: 'Roboto', sans-serif;
     font-size: 4em;
+    color: white;
   }
 
   #greeting {
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
-    color: #302a2e;
+    color: white;
   }
 
 
