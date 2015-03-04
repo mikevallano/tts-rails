@@ -11,6 +11,8 @@
     position: absolute;
     line-height: 1em;
 
+  }
+
   #clock {
     font-family: 'Roboto', sans-serif;
     font-size: 4em;
@@ -23,28 +25,23 @@
     color: white;
   }
 
-// #quote:before {
-//   content: open-quote;
-// }
-
-#quote {
-  position: absolute;
-  width: 100%;
-  bottom: 9em;
-  text-align: center;
-  font-size: 2em;
-
-  &:before {
+  #quote:before {
     content: open-quote;
   }
 
-  &:after {
+  #quote {
+    position: absolute;
+    width: 100%;
+    bottom: 3em;
+    text-align: center;
+    font-size: 2em;
+  }
+
+  #quote:after {
     content: close-quote;
   }
-}
 
 
 
-}
 
 // #main #clock
