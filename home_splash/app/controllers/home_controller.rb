@@ -19,5 +19,6 @@ class HomeController < ApplicationController
       "hello madrugada"
     end
 
+    @quote = Quote.all.sample.quip
   end
 end
