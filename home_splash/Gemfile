@@ -45,6 +45,9 @@ group :development, :test do
   # Quiet those assets down! Simma down now!
   gem 'quiet_assets'
 
+  #gives us great and colorful puts functionality
+  gem 'awesome_print'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
