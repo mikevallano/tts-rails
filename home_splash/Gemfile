@@ -16,6 +16,9 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem "font-awesome-rails"
 
+#user auth with clearance
+gem 'clearance'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
@@ -42,9 +45,6 @@ gem 'stamp'
 gem 'thin'
 
 group :development, :test do
-  # Quiet those assets down! Simma down now!
-  gem 'quiet_assets'
-
   #gives us great and colorful puts functionality
   gem 'awesome_print'
 
@@ -56,5 +56,15 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+group :development do
+  # Adding mail opening abilities
+  gem 'letter_opener'
+
+  # Quiet those assets down! Simma down now!
+  gem 'quiet_assets'
+
+ end
+
 end
 
