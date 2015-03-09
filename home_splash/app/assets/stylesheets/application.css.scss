@@ -14,6 +14,7 @@
  *= require_self
  */
 
+$minor-sized: 0.8em;
 
 html {
   font-family: 'Roboto', sans-serif;
@@ -28,6 +29,18 @@ body {
   -o-background-size: cover;
   background-size: cover;
   background-color: #829db4;
+}
+
+#clearance_links {
+  font-size: $minor-sized;
+  padding: $minor-sized;
+  text-shadow: 1px 2px 0 #000;
+
+  a {
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
 }
 
 #footer {
