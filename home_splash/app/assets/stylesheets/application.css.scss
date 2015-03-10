@@ -47,7 +47,7 @@ body {
 
 
 #clearance {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 1em 3em 3em 3em;
   border-radius: 10px;
   // auto figures out the middle
@@ -68,6 +68,23 @@ body {
   div {
     padding-top: 0.3em;
   }
+
+  .other-links {
+    font-size: $minor-sized;
+    margin-top: 2em;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+
+    a {
+      padding: 2px;
+    }
+  }
+}
+
+.flash-notice {
+  padding: 10px;
+  margin: 0, auto;
 }
 
 #footer {
