@@ -31,6 +31,8 @@ body {
   background-color: #829db4;
 }
 
+
+
 #clearance_links {
   font-size: $minor-sized;
   padding: $minor-sized;
@@ -42,6 +44,7 @@ body {
     display: block;
   }
 }
+
 
 #clearance {
   background-color: rgba(0, 0, 0, 0.5);
@@ -56,6 +59,10 @@ body {
     color: #eee;
     text-decoration: none;
     display: block;
+  }
+
+  a:hover {
+    color: #c9c7c7;
   }
 
   div {
