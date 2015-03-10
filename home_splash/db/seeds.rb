@@ -7,6 +7,6 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Quote.create(quip: "Wherever you go there you are.")
-Quote.create(quip: "Something witty")
-Quote.create(quip: "Something inspirational")
-Quote.create(quip: "Why is the sky blue?")
+Quote.create(quip: "Something witty.", author: "gant")
+Quote.create(quip: "Something inspirational.", author: "sia")
+Quote.create(quip: "Why is the sky blue?", author: "kelly")
